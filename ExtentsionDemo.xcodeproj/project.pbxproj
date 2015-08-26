@@ -11,6 +11,7 @@
 		FFA5919C1B8D633400F664E2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA591991B8D633400F664E2 /* Person.m */; };
 		FFA5919D1B8D633400F664E2 /* Person+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA5919B1B8D633400F664E2 /* Person+Extension.m */; };
 		FFA591A01B8D93B600F664E2 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA5919F1B8D93B600F664E2 /* Dog.m */; };
+		FFA591A31B8DA08900F664E2 /* WaterDog.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA591A21B8DA08900F664E2 /* WaterDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		FFA5919B1B8D633400F664E2 /* Person+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Extension.m"; sourceTree = "<group>"; };
 		FFA5919E1B8D93B600F664E2 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		FFA5919F1B8D93B600F664E2 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		FFA591A11B8DA08900F664E2 /* WaterDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterDog.h; sourceTree = "<group>"; };
+		FFA591A21B8DA08900F664E2 /* WaterDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				FFA5919B1B8D633400F664E2 /* Person+Extension.m */,
 				FFA5919E1B8D93B600F664E2 /* Dog.h */,
 				FFA5919F1B8D93B600F664E2 /* Dog.m */,
+				FFA591A11B8DA08900F664E2 /* WaterDog.h */,
+				FFA591A21B8DA08900F664E2 /* WaterDog.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFA5919D1B8D633400F664E2 /* Person+Extension.m in Sources */,
+				FFA591A31B8DA08900F664E2 /* WaterDog.m in Sources */,
 				FFA5919C1B8D633400F664E2 /* Person.m in Sources */,
 				FFA591A01B8D93B600F664E2 /* Dog.m in Sources */,
 				FFA591911B8D630500F664E2 /* main.m in Sources */,

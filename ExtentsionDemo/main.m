@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Person+Extension.h"
 #import "Dog.h"
+#import "WaterDog.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //category增加属性
@@ -95,7 +96,10 @@ int main(int argc, const char * argv[]) {
          "name : haha age : 20 addr : 0x100400720"
          )
          */
+        
+        [WaterDog walk];
     }
+    
     return 0;
 }
 

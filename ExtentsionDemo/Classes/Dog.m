@@ -10,6 +10,15 @@
 
 @implementation Dog
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+
+    }
+    return self;
+}
+
 - (id)copyWithZone:(NSZone *)zone{
     Dog * dog = [[self class] allocWithZone:zone];
     
