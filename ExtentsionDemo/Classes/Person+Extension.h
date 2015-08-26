@@ -8,7 +8,7 @@
 
 #import "Person.h"
 
-@interface Person (Extension)
+@interface Person (Extension)<NSCopying>
 @property (nonatomic,assign) NSUInteger age;
 @property (nonatomic,strong) Person * person;
 @end

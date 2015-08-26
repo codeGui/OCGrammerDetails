@@ -35,7 +35,7 @@
  
  */
 @interface Person : NSObject
-@property (nonatomic,copy) NSMutableString * name;
+@property (nonatomic,copy) NSString * name;
 @end
 
 

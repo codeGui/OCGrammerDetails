@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Person+Extension.h"
+#import "Dog.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //category增加属性
@@ -51,14 +52,52 @@ int main(int argc, const char * argv[]) {
          [mutableObject mutableCopy];//深复制
          */
 #warning 结论二
-
-
+        /*
+         在集合对象中，对immutable对象进行copy，是指针复制，mutableCopy是内容复制；对mutable对象进行copy和mutableCopy都是内容复制。但是集合对象的内容复制仅限于对象本身，对象元素仍然是指针复制。
+         代码表示：
+         [immutableObject copy];//浅复制
+         [immutableObject mutableCopy];//单层深复制
+         [mutableObject copy];//单层深复制
+         [mutableObject mutableCopy];//单层深复制
+         */
+//        [[NSArray alloc] initWithArray:@[] copyItems:YES];
+        //集合对象的复制
+        Dog * dog = [Dog new];
+        dog.age = 10;
+        dog.name = @"wangwang";
+        
+        NSArray * dogArrayI = @[dog];
+        
+        NSArray * dogArrayCopy = [dogArrayI copy];
+        NSArray * dogArrayCopyM = [dogArrayI mutableCopy];
+        NSArray * dogArrayI_YES = [[NSArray alloc] initWithArray:dogArrayI copyItems:YES];
+        NSArray * dogArrayI_NO = [[NSArray alloc] initWithArray:dogArrayI copyItems:NO];
+        
+        dog.age = 20;
+        dog.name = @"haha";
+        
+        NSLog(@"dogArrayCopy : %@",dogArrayCopy);
+        NSLog(@"dogArrayCopyM ; %@",dogArrayCopyM);
+        NSLog(@"dogArrayI_YES : %@",dogArrayI_YES);
+        NSLog(@"dogArrayI_NO : %@",dogArrayI_NO);
+        
+        /*打印结果
+          dogArrayCopy : (
+         "name : haha age : 20 addr : 0x100400720"
+         )
+         dogArrayCopyM ; (
+         "name : haha age : 20 addr : 0x100500700"
+         )
+         dogArrayI_YES : (
+         "name : wangwang age : 10 addr : 0x10010ec00"
+         )
+         dogArrayI_NO : (
+         "name : haha age : 20 addr : 0x100400720"
+         )
+         */
     }
     return 0;
 }
-
-
-
 
 
 

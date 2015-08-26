@@ -34,4 +34,12 @@ static NSString * personProperty = @"person";
     objc_setAssociatedObject(personProperty, &personProperty, person, OBJC_ASSOCIATION_RETAIN);
 }
 
+- (id)copyWithZone:(NSZone *)zone{
+    Person * p = [[self class] allocWithZone:zone];
+    p.age = self.age;
+    p.name = self.name == nil ? nil : [self.name copy];
+//    p.person = self.person == nil ? nil :[self.person copy];
+    return p;
+}
+
 @end
