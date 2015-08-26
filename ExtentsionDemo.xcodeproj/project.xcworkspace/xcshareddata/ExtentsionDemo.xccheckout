@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>58BC8FD1-E699-4B19-8210-66D01192E11B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ExtentsionDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B97FB428E44BEAF53CC5DB32F4BA7759D156E1F1</key>
+		<string>/Users/janema/Code/remoteRespositories/iOS%E5%8A%A8%E6%80%81%E5%B1%9E%E6%80%A7%E7%BB%91%E5%AE%9A%E5%8F%8Acopy%E7%9A%84%E4%BD%BF%E7%94%A8.git/</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ExtentsionDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B97FB428E44BEAF53CC5DB32F4BA7759D156E1F1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>/Users/janema/Code/remoteRespositories/iOS%E5%8A%A8%E6%80%81%E5%B1%9E%E6%80%A7%E7%BB%91%E5%AE%9A%E5%8F%8Acopy%E7%9A%84%E4%BD%BF%E7%94%A8.git/</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B97FB428E44BEAF53CC5DB32F4BA7759D156E1F1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B97FB428E44BEAF53CC5DB32F4BA7759D156E1F1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ExtentsionDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
